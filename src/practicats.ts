@@ -4,18 +4,13 @@ crear un metodo que imprima un array enumerando cada item (el array debe de ser 
 */
 
 
-
-
-
-
-
-    var numa=100;
-    var numb=232;
-    var numc=454;
+    let numa=100;
+    let numb=232;
+    let numc=454;
     
     function suma(num1:number,num2:number,num3:number){
-        var resultado = num1+num2+num3;
-        var msg='Total =' + resultado;
+        let resultado = num1+num2+num3;
+        let msg='Total =' + resultado;
         console.log(msg);
     }
 
@@ -23,4 +18,33 @@ crear un metodo que imprima un array enumerando cada item (el array debe de ser 
     
 
 
+    let boleano:boolean;
+    let entrada:number;
+    let entrada02:number;
+
+    function operaciones(bolean:boolean,entra:number,entra2:number) {
+        let resultado:number=0;
+        if (bolean) {
+            resultado=entra*entra2;
+        } else {
+            resultado=entra-entra2;
+        }
+        console.log(resultado);
+    }
+    
+    operaciones(true,2,2);
+    operaciones(true,4,2);
+
+    let cadena1:String;
+    let cadena:String;
+
+    function letras(caden:String,caden1:String){
+        let resultado:String;
+        if (String) {
+            resultado=caden1;
+        } else {
+            resultado=caden;
+        }
+        console.log(resultado);
+    }
     
