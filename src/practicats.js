@@ -1,4 +1,3 @@
-"use strict";
 var suma01;
 (function (suma01) {
     var num1 = 100;
