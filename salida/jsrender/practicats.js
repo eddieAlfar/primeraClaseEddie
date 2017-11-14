@@ -29,13 +29,13 @@ operaciones(true, 2, 2);
 operaciones(true, 4, 2);
 var cadena1;
 var cadena;
-function letras(caden, caden1) {
-    var resultado;
-    if (String) {
-        resultado = caden1;
+function letras(cadena, cadena1) {
+    var resultado = "";
+    if (cadena.length >= 4) {
+        console.log("cadena larga");
     }
     else {
-        resultado = caden;
+        console.log("Cadena corta");
     }
-    console.log(resultado);
 }
+letras("k", "");

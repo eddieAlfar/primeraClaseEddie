@@ -38,13 +38,15 @@ crear un metodo que imprima un array enumerando cada item (el array debe de ser 
     let cadena1:String;
     let cadena:String;
 
-    function letras(caden:String,caden1:String){
-        let resultado:String;
-        if (String) {
-            resultado=caden1;
+    function letras(cadena:String,cadena1:String){
+        let resultado:String="";
+        if (cadena.length>=4) {
+            console.log("cadena larga");
         } else {
-            resultado=caden;
+            console.log("Cadena corta");
         }
-        console.log(resultado);
+
     }
+    
+    letras("k", "");
     
