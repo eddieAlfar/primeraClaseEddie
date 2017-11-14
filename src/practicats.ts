@@ -50,3 +50,12 @@ crear un metodo que imprima un array enumerando cada item (el array debe de ser 
     
     letras("k", "");
     
+    let number0:string[];
+    let number1:number[];
+
+    function iten(number0:string[],number1:number[]){
+        console.log(" Ejemplo: " +number0[0] + " " +number1[0]);
+        console.log(number1[0]);
+     
+    }
+    iten(["Pedro","Luis","Tomas"],[1,2,3]);
