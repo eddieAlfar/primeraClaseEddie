@@ -43,6 +43,5 @@ var number0;
 var number1;
 function iten(number0, number1) {
     console.log(" Ejemplo: " + number0[0] + " " + number1[0]);
-    console.log(number1[0]);
 }
 iten(["Pedro", "Luis", "Tomas"], [1, 2, 3]);
